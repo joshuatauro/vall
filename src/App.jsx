@@ -107,7 +107,7 @@ export default function Home() {
           <p  className="text-3xl font-cute bg-[#D72638] text-white px-5 py-7 rounded-2xl text-center leading-relaxed">And this is a small sample of my gallery, pura phone ka storage kha jati ho tum, 2 bite khaake pet bhar jayega par iska, huh, cutu ekdum. <br /> <br /> Happy Valentines day my beautiful princess, i love you so so so so so so so much <br /><br/> We have so so many places to visit, so many trips that i've got planned for us, itne saare restaurants, oops, cafe's that we have to go to, tumhari aestits photo lena seekhna hai merko, damn bhai, itne saare cheezein hai karne ko, and itne saare cheezein krli hai hum dono ne <br/> <br/> hehe my favourite is still you sleeping in my arms (ik irl its me ekdum wo cat wale sticker ki tarah sona, but let it be cute and delulu for now)</p>
       </div>
       <div className="w-3/4 mx-auto items-center justify-center flex flex-col mt-20 z-50">
-          <p className="text-2xl font-para bg-[#D72638] text-white px-5 py-7 rounded-2xl text-center leading-relaxed">I could go on and on forever about this, you know what? i will, so princess, read all of this
+          <p className="text-2xl font-cute bg-[#D72638] text-white px-5 py-7 rounded-2xl text-center leading-relaxed">I could go on and on forever about this, you know what? i will, so princess, read all of this
 
             <br/><br/>
 
