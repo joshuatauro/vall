@@ -1,0 +1,61 @@
+@import '@fontsource/borel'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-para{
+  font-family: 'Inter Variable', sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.font-cute{
+  font-family: 'Borel', cursive;
+  /* margin: 40px 0; */
+  position: relative;
+  z-index: 2;
+  /* font-family: 'parisienne', cursive */
+/*  */
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  z-index: 550;
+
+}
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
+
+.ReactModal__Content{
+  z-index: 500 !important;
+  background-color:  #D72638 !important;
+
+}
+
+.heart {
+  position: fixed;
+  font-size: 30px;
+  animation: subtleMoveAndRotate 5s infinite ease-in-out; /* Slower and subtle animation */
+  z-index: 1
+}
+
+@keyframes subtleMoveAndRotate {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg); /* Start and end at the same position */
+  }
+  25% {
+    transform: translateY(-5px) rotate(10deg); /* Slight upward movement and rotate right */
+  }
+  50% {
+    transform: translateY(0) rotate(0deg); /* Return to original position */
+  }
+  75% {
+    transform: translateY(5px) rotate(-10deg); /* Slight downward movement and rotate left */
+  }
+}
